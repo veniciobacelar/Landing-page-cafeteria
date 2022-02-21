@@ -1,0 +1,72 @@
+
+@media(max-width: 768px){
+    .contato{
+        background-color: #562c13;
+        background-image: none;
+    }
+
+    .contato div{
+        text-align: center;
+        top: 50%;
+        left: 0;
+        transform: translateY(-50%);
+        position: relative;
+    }
+}
+
+@media(max-width: 720px){
+    .ladrilhos .grande,
+    .ladrilhos .medio{
+        width: 100%;
+        height: 300px;
+    }
+
+    .ladrilhos .pequeno, 
+    .ladrilhos .pequeno-grao{
+        width: 50%;
+    }
+}
+
+
+@media(max-width: 570px){
+    body{
+        padding-top: 266px;
+    }
+    .logo{
+        display: block;
+        text-align: center;
+        width: 100%;
+    }
+
+    .navegacao{
+        text-align: center;
+        width: 100%;
+    }
+    .navegacao .menu{
+        display:block;
+        margin-top: 20px;
+    }
+
+    .secao-com-texto h2{
+        font-size: 25px;
+    }
+    .rodape{
+        background-image: none;
+        background-color: black;
+        display: block;
+        text-align: center;
+    }
+
+    .rodape .logo-rodape{
+        margin-bottom: 20px;
+    }
+
+}
+
+@media(max-width: 375px){
+    .ladrilhos .pequeno-grao,
+    .ladrilhos .pequeno{
+        width: 100%;
+    }
+
+}

@@ -1,0 +1,136 @@
+
+/*CABEÇALHO*/
+.cabecalho{
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+.cabecalho .menu{
+    display: flex;
+}
+
+.cabecalho li{
+    border: 2px solid brown;
+    border-radius: 10px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.466);
+    margin: 5px;
+    padding: 5px;
+}
+
+.cabecalho li:hover{
+    background-color: brown;
+    transition: 0.3s ease-in-out;
+}
+
+.cabecalho a{
+    font-size: 18px;
+}
+
+.cabecalho a:hover{
+    color: white;
+    font-weight: bold;
+    transition: 0.3s ease-in-out;
+}
+/*CABEÇALHO*/
+
+/*PAINEL*/
+.painel{
+    align-items: center;
+    color: white;
+    display: flex;
+    background: url(../images/painel.jpg) center center no-repeat;
+    font-size: 25px;
+    height: 600px;
+    justify-content: center;
+    max-width: 1440px;
+    text-align: center;
+    text-shadow: 2px 2px 2px black;
+}
+/*PAINEL*/
+
+/*QUEM SOMOS - ONDE ESTAMOS*/
+.secao-com-texto{
+    clear: both;
+    display: flex;
+    justify-content: center;
+}
+
+.secao-com-texto img{
+    width: 170px;
+    margin-bottom: 30px;
+}
+
+.secao-com-texto h2{
+    font-size: 40px;
+    margin-bottom: 30px;
+}
+
+.secao-com-texto p{
+    font-size: 20px;
+    line-height: 1.5em;
+}
+
+.secao-com-texto div{
+    padding: 153px 10px;
+    text-align: center;
+    width: 702px;
+}
+
+/*QUEM SOMOS - ONDE ESTAMOS*/
+
+/*LADRILHOS*/
+.ladrilhos div{
+    float: left;
+
+}
+
+
+.ladrilhos .grande{
+    background: url(../images/4.jpg) center center no-repeat;
+    height: 600px;
+    width: 50%;
+}
+
+
+.ladrilhos .pequeno{
+    background: url(../images/3.jpg) center center no-repeat;
+    height: 300px;
+    width: 25%;
+}
+
+.ladrilhos .pequeno-grao{
+    background: url(../images/2.jpg) center center no-repeat;
+    height: 300px;
+    width: 25%;
+}
+
+.ladrilhos .medio{
+    background: url(../images/1.jpg) center center no-repeat;
+    height: 300px;
+    width: 50%;
+}
+/*LADRILHOS*/
+
+/*CONTATO*/
+.contato{
+    background: url(../images/fundo-contato.jpg) center center no-repeat;
+    color: white;
+    font-weight: 600;
+    font-size: 25px;
+    height: 600px;
+    position: relative;
+}
+
+.contato div{
+    position: absolute;
+    top: 30%;
+    left: 50%;
+}
+/*CONTATO*/
+
+/*RODAPÉ*/
+.rodape{
+    background: url(../images/fundo-rodape.jpg) center center no-repeat;
+}

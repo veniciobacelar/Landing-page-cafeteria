@@ -1,0 +1,185 @@
+
+/*CABEÇALHO*/
+.cabecalho{
+    align-items: center;
+    background-color: white;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: auto;
+    max-width:  1440px;
+    padding-top: 5px;
+    width: 100%;
+    position: fixed;
+    top: 0;
+}
+
+.cabecalho .menu{
+    display: flex;
+}
+
+.cabecalho .menu li{
+    margin: 10px;
+    padding: 10px;
+}
+
+.cabecalho .menu a{
+    border: 2px solid #562c13;
+    border-radius: 10px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.466);
+    font-size: 18px;
+    font-weight: bold;
+    padding: 5px;
+}
+
+.cabecalho .menu a:hover{
+    background-color: #562c13;
+    color: white;
+    font-weight: bold;
+    transition: 0.3s ease-in-out;
+}
+/*CABEÇALHO*/
+
+/*PAINEL*/
+.painel{
+    align-items: center;
+    background: url(../images/painel.jpg)
+    center center;
+    color: white;
+    display: flex;
+    font-size: 25px;
+    height: 600px;
+    justify-content: center;
+    text-align: center; 
+    text-shadow: 2px 2px 2px black;
+}
+/*PAINEL*/
+
+/*QUEM SOMOS - ONDE ESTAMOS*/
+.secao-com-texto{
+    clear: both;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    
+}
+
+.secao-com-texto div{
+    max-width: 702px;
+    padding: 153px 10px;
+}
+
+.secao-com-texto img{
+    width: 170px;
+    padding-bottom: 37px;
+}
+
+.secao-com-texto h2{
+    font-size: 45px;
+    font-weight: 600;
+    padding-bottom: 37px;
+}
+
+.secao-com-texto p{
+    font-size: 18px;
+    line-height: 2em;
+}
+/*QUEM SOMOS - ONDE ESTAMOS*/
+
+/*LADRILHOS*/
+.ladrilhos div{
+    float: left;
+}
+
+.ladrilhos .grande{
+    background: url(../images/4.jpg) center center no-repeat;
+    height: 600px;
+    width: 50%;
+}
+
+
+.ladrilhos .pequeno{
+    background: url(../images/3.jpg) center center no-repeat;
+    height: 300px;
+    width: 25%;
+}
+
+.ladrilhos .pequeno-grao{
+    background: url(../images/2.jpg) center center no-repeat;
+    height: 300px;
+    width: 25%;
+}
+
+.ladrilhos .medio{
+    background: url(../images/1.jpg) center center no-repeat;
+    height: 300px;
+    width: 50%; 
+}
+/*LADRILHOS*/
+
+/*CONTATO*/
+.contato{
+    background: url(../images/fundo-contato.jpg) center center no-repeat;
+    color: white;
+    font-weight: 600;
+    font-size: 25px;
+    height: 600px;
+    position: relative;
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.466);
+}
+
+
+.contato div{
+    position: absolute;
+    top: 30%;
+    left: 50%;
+}
+/*CONTATO*/
+
+/*RODAPÉ*/
+.rodape{
+    align-items: center;
+    background: url(../images/fundo-rodape.jpg) center center no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: space-between;
+    padding: 35px 30px;
+    flex-wrap: wrap;
+    text-align: center;
+}
+
+.rodape ul{
+    display: flex;
+}
+
+.rodape li{
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.466);
+    margin: 5px;
+    padding: 5px;
+}
+
+.rodape .redes-socias .instagram,
+.rodape .redes-socias .facebook{
+    width: 40px;
+    height: 40px;
+    margin: 10px
+}
+
+.rodape .copyright{
+    color: white;
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
