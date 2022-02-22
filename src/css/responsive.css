@@ -30,12 +30,16 @@
 
 @media(max-width: 570px){
     body{
-        padding-top: 266px;
+        padding-top: 170px;
     }
     .logo{
         display: block;
         text-align: center;
         width: 100%;
+    }
+
+    .logo img{
+        width: 60px;
     }
 
     .navegacao{
@@ -44,7 +48,16 @@
     }
     .navegacao .menu{
         display:block;
-        margin-top: 20px;
+        margin-bottom: 5px;
+    }
+
+    .navegacao .menu li{
+        margin: 0px;
+        padding: 7px;
+    }
+
+    .navegacao .menu a{
+        font-size: 10px;
     }
 
     .secao-com-texto h2{
